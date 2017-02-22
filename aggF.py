@@ -10,7 +10,7 @@ def aggF (r):
 # r: the row aggregation scheme. 
 #Output variable:
 #S: the aggregation matrix given by the aggregation scheme r.
-# Reference: Stairs (2013): An Aggregation Matrix MatLab Function.
+# Reference: Stair (2013): An Aggregation Matrix MatLab Function.
     import numpy as np
     row=r
     col=np.array(range(len(r)))
