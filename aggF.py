@@ -12,7 +12,7 @@ def aggF (r):
 #S: the aggregation matrix given by the aggregation scheme r.
 # Reference: Stair (2013): An Aggregation Matrix MatLab Function.
     import numpy as np
-    row=r
+    row=np.array(r).flatten()
     col=np.array(range(len(r)))
     data=np.array([1]*len(r))
     from scipy.sparse import coo_matrix
