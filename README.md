@@ -1,1 +1,1 @@
-#spatial and sectoral aggregation
+# Spatial and sectoral aggregation
